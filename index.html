@@ -4,45 +4,76 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/scss/app.css" />
     <title>Favorit</title>
   </head>
   <body>
     <main>
-      <section id="top_Banner">
-        <div class="container">
-          <div class="description">
-            <div class="left_Banner">
-              <h1>Favorit Group</h1>
-              <div class="descr_Taxi">
-                <p>
-                  Крупнейший таксопарк города Балашиха Favorite Group,
-                  предлагает автомобили в аренду для работы в такси на срок от
-                  одного месяца.
-                </p>
-              </div>
-            </div>
-            <div class="right_Banner">
-              <img src="src/images/content/taxi.jpeg" alt="тут была машинка" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="main_Banner">
-        <form action="#" method="post"></form>
+      <form action="#" method="post" enctype="multipart/form-data"></form>
+      <div>
+        <p>Логин</p>
+        <input tabindex="1" placeholder="login" type="text" name="username" />
+      </div>
+      <div>
+        <p>Пароль</p>
+        <input
+          tabindex="2"
+          placeholder="password"
+          type="password"
+          name="userpass"
+        />
+      </div>
+      <div>
+        <p>Телефон</p>
+        <input
+          tabindex="3"
+          placeholder="phoneNumber"
+          type="tel"
+          name="userphone"
+        />
+      </div>
+      <div>
+        <p>Пол</p>
+        <input tabindex="4" type="radio" /> Мужской
+        <div><input tabindex="4" type="radio" /> Женский</div>
+      </div>
+      <div>
+        <p>Имущество</p>
+        <input tabindex="5" type="checkbox" name="bike" value="yes" /> Велик
         <div>
-          <input type="text" name="username" value="login" />
+          <input tabindex="6" type="checkbox" name="auto" value="yes" /> Машина
         </div>
         <div>
-          <input type="password" name="userpass" value="password" />
+          <input tabindex="7" type="checkbox" name="house" value="yes" /> Дом
         </div>
-        <div>
-          <p>
-            <input checked type="radio" name="model" value="solaris" /> Солярис
-            20 года
-          </p>
-          <p><input type="radio" name="model" value="kia" /> Киа рио 20 года</p>
-        </div>
-      </section>
+      </div>
+      <div>
+        <p>Дополнительная информация</p>
+        <textarea
+          tabindex="8"
+          placeholder="Полезная информация"
+          name="otherinfo"
+        >
+        </textarea>
+      </div>
+      <div>
+        <p>Прикрепить фото</p>
+        <input tabindex="9" type="file" />
+      </div>
+      <div>
+        <p></p>
+        <select tabindex="10" name="color">
+          <option value="red">Красный</option>
+          <option value="green">Зеленый</option>
+          <option value="blue">Синий</option>
+        </select>
+      </div>
+      <div>
+        <p>Действия</p>
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+      </div>
+      <span>wjhugf</span>
     </main>
   </body>
 </html>
