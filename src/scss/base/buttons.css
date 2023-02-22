@@ -1,1 +1,26 @@
-/*# sourceMappingURL=buttons.css.map */
+.btn, .btn_Buy {
+  color: #2e196c;
+  border: 0.1px solid #2e196c;
+  font-weight: 600;
+  padding: 10px 25px 10px 30px;
+  transition: all 0.9s ease;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 16px;
+}
+.btn:hover, .btn_Buy:hover {
+  background-color: #625bed;
+  color: #ffffff;
+}
+
+.btn_Buy {
+  color: white;
+  box-shadow: 0 2px 4px rgb(0, 0, 0);
+  background: #2e196c;
+  border: none;
+}
+.btn_Buy:hover {
+  background-color: #625bed;
+}/*# sourceMappingURL=buttons.css.map */
