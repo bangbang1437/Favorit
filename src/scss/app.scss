@@ -4,9 +4,6 @@
 /* CSS Reset */
 @import 'base/reset';
 
-/* Fonts */
-@import 'base/fonts';
-
 /* Adaptive*/
 @import 'base/adaptive';
 
@@ -14,5 +11,10 @@
 @import 'base/buttons';
 
 html {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: red;
   scroll-behavior: smooth;
+}
+
+body {
 }
